@@ -25,6 +25,6 @@ There is also a `style-guide.md` file, which contains the information you'll nee
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 # My replication of webpage
-
+![Design preview for the Huddle landing page with single introductory section_my_attempt](./huddle-landing-page.jpg)
 
 
