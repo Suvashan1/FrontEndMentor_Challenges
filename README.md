@@ -1,6 +1,3 @@
-# Frontend Mentor - Huddle landing page with single introductory section
-
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -21,5 +18,13 @@ If you would like the Sketch file in order to inspect the design in more detail 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+
+# Frontend Mentor - Huddle landing page with single introductory section
+
+# Sample of expected webpage
+![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+
+# My replication of webpage
+
 
 
