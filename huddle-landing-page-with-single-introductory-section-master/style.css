@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
+  position: relative;
   box-sizing: border-box;
   margin: 0;
   background-color: hsl(257, 40%, 49%);
@@ -23,7 +24,7 @@
 .content {
   display: flex;
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 .content img {
@@ -39,11 +40,13 @@
   margin: 30px 10px 20px 0;
 }
 
-p {
+.paragraph p {
   font-family: "Open Sans";
   font-weight: 400;
   color: white;
-  margin: 0 20px 20px 0;
+  margin: 0 155px 20px 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .btn {
@@ -54,6 +57,7 @@ p {
   color: white;
   border: none;
   box-shadow: 1px 1px rgba(112, 102, 102, 0.78);
+  outline: none;
 }
 
 .btn:hover {
@@ -65,7 +69,7 @@ p {
 }
 
 .social-media {
-  margin: 120px 10px 10px 300px;
+  margin: 150px 10px 10px 320px;
   text-align: center;
 }
 
@@ -82,4 +86,35 @@ i {
   border: 1px solid white;
   border-radius: 50%;
   background: hsl(257, 40%, 49%);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  .content {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .content img {
+    margin: 0 20px;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  .paragraph p {
+    margin: 20px 100px;
+    text-align: unset;
+  }
+
+  .btn {
+    margin-top: 30px;
+  }
+
+  .social-media {
+    margin: 30px 30px 70px 40px;
+    padding: 50px;
+  }
 }
